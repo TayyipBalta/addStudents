@@ -1,0 +1,91 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    list-style: none;
+}
+
+#addContainer
+{
+    background-color: rgb(0, 255, 251);
+    border-radius: 25px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 100px;
+    margin: 5% 40%;
+}
+
+dialog::backdrop {
+    background-color: rgb(0, 0, 0, .3);
+}
+dialog form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+
+
+dialog label input {
+    padding: 4px;
+}
+
+
+dialog label:is(input,select) {
+    padding: 4px;
+}
+dialog
+{
+    background-color: rgb(0, 255, 251);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5% 42%;
+}
+
+#students
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-inline: 200px;
+    justify-content: center;
+    gap: 20px;
+}
+#studentsCards
+{
+    background-color: rgb(229, 255, 0);
+    max-width: 210px;
+    padding: 40px;
+    padding-inline: 40px;
+    margin-inline: 15px;
+    border-radius: 25px;
+    word-break: break-all;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+#name , #surname , #stdCls
+{
+    width: 200px;
+    height: 20px;    
+}
+
+button
+{
+    width: 100px;
+    height: 30px;
+}
