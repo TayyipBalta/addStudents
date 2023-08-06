@@ -13,7 +13,7 @@ let qsa = s => document.querySelectorAll(s);
 function addStudents(student)
 {
     let studentsCards = document.createElement("div");
-    studentsCards.classList.add(student);
+    studentsCards.classList.add("studentsCards");
 
     studentsCards.innerHTML =
     `<img src="${student.img}" alt="">
